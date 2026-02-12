@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.tp1.R
+import ca.ulaval.ima.tp1.R
 
 class DepartementActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

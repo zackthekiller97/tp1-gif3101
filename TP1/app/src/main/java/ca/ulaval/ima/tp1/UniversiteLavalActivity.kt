@@ -8,7 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.Button
-import com.example.tp1.R
+import ca.ulaval.ima.tp1.R
 
 class UniversiteLavalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

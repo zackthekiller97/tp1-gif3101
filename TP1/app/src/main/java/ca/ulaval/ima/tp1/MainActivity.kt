@@ -8,7 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import java.util.Calendar
 import android.content.Intent
 import android.widget.Button
-import com.example.tp1.R
+import ca.ulaval.ima.tp1.R
 
 class MainActivity : AppCompatActivity() {
     private lateinit var monProfil: Profil

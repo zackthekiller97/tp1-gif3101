@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.widget.TextView
-import com.example.tp1.R
+import ca.ulaval.ima.tp1.R
 import java.text.SimpleDateFormat
 import java.util.Locale
 
