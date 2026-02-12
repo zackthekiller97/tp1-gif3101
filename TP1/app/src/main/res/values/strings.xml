@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TP1</string>
+    <string name="name">Zachary Marcotte</string>
+    <string name="bt1_name">Université Laval</string>
+    <string name="bt2_name">Département de génie électrique et de génie informatique</string>
+    <string name="bt3_name">Mon Profil</string>
+    <string name="fermer">Fermer</string>
+</resources>
