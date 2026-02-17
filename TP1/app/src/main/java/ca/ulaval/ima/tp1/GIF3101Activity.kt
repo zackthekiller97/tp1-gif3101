@@ -1,38 +1,28 @@
 package ca.ulaval.ima.tp1
 
-import android.content.Intent
 import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import ca.ulaval.ima.tp1.R
 
-class DepartementActivity : AppCompatActivity() {
+class GIF3101Activity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_departement)
+        setContentView(R.layout.activity_gif3101)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val urlDepartement = intent.getStringExtra("URL_DEPARTEMENT")
-        val webView = findViewById<WebView>(R.id.webViewDepartement)
-        val btnGIF3101 = findViewById<Button>(R.id.btnGIF3101)
-        btnGIF3101.setOnClickListener {
-            val intent = Intent(this, GIF3101Activity::class.java)
-            startActivity(intent)
-        }
+        val urlGIF3101 = "https://www.ulaval.ca/etudes/cours/gif-3101-informatique-mobile-et-applications"
+        val webView = findViewById<WebView>(R.id.webViewGIF3101)
         webView.webViewClient = WebViewClient()
         webView.settings.javaScriptEnabled = true
-
-        if (urlDepartement != null) {
-            webView.loadUrl(urlDepartement)
-        }
+        webView.loadUrl(urlGIF3101)
     }
 }

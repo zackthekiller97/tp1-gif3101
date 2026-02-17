@@ -20,6 +20,9 @@
             android:name="ca.ulaval.ima.tp1.DepartementActivity"
             android:exported="false" />
         <activity
+            android:name="ca.ulaval.ima.tp1.GIF3101Activity"
+            android:exported="false" />
+        <activity
             android:name="ca.ulaval.ima.tp1.UniversiteLavalActivity"
             android:exported="false" />
         <activity
